@@ -314,7 +314,7 @@ background-image: url(all-image/desktop-2.png);
 
 
 @mixin count-section{
- width: 210px;
+ width: 200px;
  height: 150px;
  color: black;
  border-radius: 10px;
@@ -335,7 +335,7 @@ background-image: url(all-image/desktop-2.png);
 }
 
 .main-container{
-  width: 690px;
+  max-width: 690px;
   min-height:799px;
   margin-top: 16px;
 }
@@ -350,7 +350,7 @@ background-image: url(all-image/desktop-2.png);
 }
 
 .logo-section{
-  width: 210px;
+  max-width: 210px;
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -359,7 +359,7 @@ background-image: url(all-image/desktop-2.png);
 }
 
 .icon-section{
-  width: 40px;
+  max-width: 40px;
   height: 44px;
    font-size: 20px;
   display: flex;
@@ -401,7 +401,8 @@ align-items: center;
 #limit-alert-text {
   color: #DA3701;
   align-self: flex-start;
-  margin: 16px 0 45px 0;
+  margin-top:16px;
+  margin-bottom:64px;
   @include font-family(16px, 130%, -0.6px, normal)
 }
 
@@ -416,7 +417,7 @@ align-items: center;
 }
 
 .checkbox{
- width: 308px;
+ max-width: 308px;
  height: inherit;
  display: flex;
  justify-content: space-between;
